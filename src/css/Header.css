@@ -1,0 +1,48 @@
+/* header开始 */
+.header{
+    height: 44px;
+    background: #31c27c;
+  }
+  .header .h-logo{
+    float: left;
+    width: 90px;
+    height: 25px;
+    background: url(../icons/logo.png) no-repeat 0 0;
+    background-size: 100% 100%;
+    margin: 9px 10px 0;
+  }
+  .header .download{
+    float: right;
+    width: 80px;
+    height: 28px;
+    border-radius: 90px;
+    font: 14px/28px '微软雅黑';
+    color: #fff;
+    background: #149c5a;
+    margin: 8px 10px 0;
+    text-align: center;
+  }
+  .nav{
+    display: flex;
+  }
+  .nav a{
+    position: relative;
+    flex: 1;
+    text-align: center;
+    font: 16px/40px '微软雅黑';
+    color:black;
+    
+  }
+  .nav .active{
+    color: #31c27c;
+  }
+  .nav .active:after{
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background: #31c27c;
+  }
